@@ -79,25 +79,25 @@ struct CameraPreviewView: UIViewControllerRepresentable {
             if(initialOrientation == .landscapeLeft){
                 switch currentOrientation {
                 case .landscapeLeft:
-                    print("left")
+//                    print("left")
                     orientations = .up
                 case .landscapeRight:
-                    print("right")
+//                    print("right")
                     orientations = .down
                 default:
-                    print("def")
+//                    print("def")
                     orientations = .up
                 }
             } else {
                 switch currentOrientation {
                 case .landscapeLeft:
-                    print("else left")
+//                    print("else left")
                     orientations = .down
                 case .landscapeRight:
-                    print("else right")
+//                    print("else right")
                     orientations = .up
                 default:
-                    print("else def")
+//                    print("else def")
                     orientations = .up
                 }
             }
